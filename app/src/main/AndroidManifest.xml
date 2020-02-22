@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pemdas.math.pemdasgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainMenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".selectPEMDASActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pemdas.math.pemdasgame.MainMenuActivity" />
+        </activity>
+
+        <activity android:name=".OptionsMenuActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pemdas.math.pemdasgame.MainMenuActivity" />
+        </activity>
+
+        <activity android:name=".HowToPlayActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pemdas.math.pemdasgame.MainMenuActivity" />
+        </activity>
+
+        <activity android:name=".ActiveGameActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pemdas.math.pemdasgame.selectPEMDASActivity" />
+        </activity>
+
+
+    </application>
+
+</manifest>

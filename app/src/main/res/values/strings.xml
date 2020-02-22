@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PEMDAS</string>
+    <string name="title_activity_select_pemdas">selectPEMDASActivity</string>
+    <string name="title_activity_dummy">dummy</string>
+    <string name="startGame">Start Game</string>
+    <string name="options">Options</string>
+    <string name="howToPlay">How To Play</string>
+    <string name="equationTxt" id="equationTxt">Equation</string>
+    <string name="submitAnswer">Submit</string>
+    <string name="typeAnswer">Your Answer</string>
+    <string name="P">P</string>
+    <string name="E">E</string>
+    <string name="M">M</string>
+    <string name="D">D</string>
+    <string name="A">A</string>
+    <string name="S">S</string>
+
+
+</resources>
